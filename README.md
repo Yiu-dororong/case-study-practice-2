@@ -7,14 +7,22 @@ This project serves as the first hand-on practice on my Business Intelligence (B
 To keep it simple, I will make a brief summary here. For details, please refer to the three documents in the respiratory.
 
 **Stakeholder requirements**
+
 R - required 
+
 •	A table or map visualization exploring starting and ending station locations, aggregated by location.
+
 •	A visualization showing which destination (ending) locations are popular based on the total trip minutes.
 •	A visualization showing the percent growth in the number of trips year over year.
+
 •	Gather insights about the number of trips across all starting and ending locations.
+
 •	Gather insights about peak usage by time of day, season, and the impact of weather.
+
 D - desired 
+
 •	A visualization that focuses on trends from the summer of 2015.
+
 
 
 Primary dataset: 
