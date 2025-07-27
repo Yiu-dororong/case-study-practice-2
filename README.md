@@ -76,9 +76,6 @@ SELECT
   ZIPEND.zip_code AS zip_code_end,
   ZIPENDNAME.borough borough_end,
   ZIPENDNAME.neighborhood AS neighborhood_end,
-  -- Since this is a fictional dashboard, add 5 years to make it look recent
-  DATE_ADD(DATE(TRI.starttime), INTERVAL 5 YEAR) AS start_day,
-  DATE_ADD(DATE(TRI.stoptime), INTERVAL 5 YEAR) AS stop_day,
   WEA.temp AS day_mean_temperature, -- Mean temp
   WEA.wdsp AS day_mean_wind_speed, -- Mean wind speed
   WEA.prcp day_total_precipitation, -- Total precipitation
@@ -111,6 +108,7 @@ WHERE
   WEA.wban = '94728' -- NEW YORK CENTRAL PARK
   -- Use data from 2014 and 2015
   AND EXTRACT(YEAR FROM DATE(TRI.starttime)) BETWEEN 2014 AND 2015
+--AND DATE(TRI.starttime) BETWEEN DATE('2015-07-01') AND DATE('2015-09-30')  // To obtain a table dedicated for 2015 summer
 GROUP BY
   1,
   2,
@@ -127,7 +125,7 @@ GROUP BY
   13
 ```
 
-Basically, from the ```SELECT``` section, there a few main tables appeared. TRI is meant by TRIP, the main sheet which is NYC Citi Bike Trips. ZIPSTART is used to retrieve the zip code of the starting location, while ZIPSTARTNAME would be the name of the starting location, and so do ZIPEND and ZIPENDNAME. Note that the zip code acts as a primary key on matching the actual location. The column names are self-explanatory. The DATE_ADD function can add a certain period of time to a date, this is just to make this fictional setting to be more recent. Here concludes all the time and location for each trip.
+Basically, from the ```SELECT``` section, there a few main tables appeared. TRI is meant by TRIP, the main sheet which is NYC Citi Bike Trips. ZIPSTART is used to retrieve the zip code of the starting location, while ZIPSTARTNAME would be the name of the starting location, and so do ZIPEND and ZIPENDNAME. Note that the zip code acts as a primary key on matching the actual location. The column names are self-explanatory. Here concludes all the time and location for each trip.
 
 Next, we have to know the weather condition of every day, so the mean temperature, wind speed, and total precipitation are extracted. One may add extra information to investigate, such as fog and snow, but it is not a common weather in New York.
 
