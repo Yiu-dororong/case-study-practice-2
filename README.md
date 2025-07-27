@@ -1,7 +1,7 @@
 # Case Study Practice 2 
 This project serves as the first hand-on practice on my Business Intelligence (BI) skills. It is based on a given fictional topic and with some guidances from the course I am taking. BigQuery, SQL and Tableau will be used in the ETL process and data visualisation. Since some of the information from the course, I will try to explain the process as the course did give exemplars for references in the end. It aims to show all my understanding and thought process here.
 
-### Introduction
+## Introduction
 **Situation** 
 
 Imagine I am a business analyst in Cyclistic, a fictional bike-share company in New York City. The growth team wants to understand how their customers are using their bikes; their top priority is identifying customer demand at different station locations.
@@ -43,7 +43,7 @@ Secondary datasets:
 
 [Zip code spreadsheet](https://docs.google.com/spreadsheets/d/1IIbH-GM3tdmM5tl56PHhqI7xxCzqaBCU0ylItxk_sy0/template/preview#gid=806359255)
 
-### ETL
+## ETL
 
 After the business tasks are clearly defined, I may begin to the work of data flow.
 
@@ -140,7 +140,7 @@ ST_WITHIN enables location (by using ST_GEOPOINT to convert latitude and longitu
 Finally, the ```WHERE``` section filters out the New York area by using the weather station ID and extract a specific period for the analysis. The numbers under ```GROUP BY``` represents the ordinal columns. The output table is saved when the query is completed.
 
 
-### Dashboard
+## Dashboard
 
 
 
