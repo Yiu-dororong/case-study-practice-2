@@ -49,15 +49,15 @@ After the business tasks are clearly defined, I may begin to the work of data fl
 
 To begin with, let investigate what major schema is in the datasets.
 
-NYC Citi Bike Trips:
+**NYC Citi Bike Trips**
 
 Trip duration, user type (Customer = 24-hour pass or 7-day pass user, Subscriber = Annual Member), starting and ending time and location (station id, name, latitude and longtitude), bike ID
 
-Census Bureau US Boundaries & Zip code spreadsheet
+**Census Bureau US Boundaries & Zip code spreadsheet**
 
 zip codes and location (state/city/borought/neightbourhood etc.)
 
-GSOD from the National Oceanic and Atmospheric Administration
+**GSOD from the National Oceanic and Atmospheric Administration**
 
 date, temperature, station number, windspeed, precipitation and other weather measurements
 
