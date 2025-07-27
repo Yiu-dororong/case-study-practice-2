@@ -76,6 +76,8 @@ SELECT
   ZIPEND.zip_code AS zip_code_end,
   ZIPENDNAME.borough borough_end,
   ZIPENDNAME.neighborhood AS neighborhood_end,
+  DATE(TRI.starttime) AS start_day,
+  DATE(TRI.stoptime) AS stop_day,
   WEA.temp AS day_mean_temperature, -- Mean temp
   WEA.wdsp AS day_mean_wind_speed, -- Mean wind speed
   WEA.prcp day_total_precipitation, -- Total precipitation
