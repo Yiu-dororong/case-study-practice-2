@@ -1,5 +1,5 @@
 # Case Study Practice 2 
-This project serves as the first hand-on practice on my Business Intelligence (BI) skills. It is based on a given fictional topic and with some guidances from the course I am taking. BigQuery, SQL and Tableau will be used in the ETL process and data visualisation. Since some of the information from the course, I will try to explain the process as the course did give exemplars for references in the end. It aims to show all the procedure and thought process here.
+This project serves as the first hand-on practice on my Business Intelligence (BI) skills. It is based on a given fictional topic and with some guidances from the course I am taking. BigQuery, SQL and Tableau will be used in the ETL process and data visualisation. Since some of the information from the course, I will try to explain the process as the course did give exemplars for references in the end. It aims to show all my understanding and thought process here.
 
 ### Introduction
 **Situation** 
