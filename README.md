@@ -53,7 +53,7 @@ To begin with, let investigate what major schema is in the datasets.
 
 Trip duration, user type (Customer = 24-hour pass or 7-day pass user, Subscriber = Annual Member), starting and ending time and location (station id, name, latitude and longtitude), bike ID
 
-### Census Bureau US Boundaries & Zip code spreadsheet
+### Census Bureau US Boundaries & Zip Code spreadsheet
 
 zip codes and location (state/city/borought/neightbourhood etc.)
 
