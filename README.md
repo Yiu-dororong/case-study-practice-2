@@ -41,7 +41,7 @@ Secondary datasets:
 
 [GSOD from the National Oceanic and Atmospheric Administration](https://console.cloud.google.com/marketplace/details/noaa-public/gsod?inv=1&invt=Ab35Kg&project=iconic-medium-466721-f4)
 
-[Zip code spreadsheet](https://docs.google.com/spreadsheets/d/1IIbH-GM3tdmM5tl56PHhqI7xxCzqaBCU0ylItxk_sy0/template/preview#gid=806359255)
+[Zip code spreadsheet](https://docs.google.com/spreadsheets/d/1IIbH-GM3tdmM5tl56PHhqI7xxCzqaBCU0ylItxk_sy0/template/preview#gid=806359255) (manually uploaded to BigQuery)
 
 ## ETL
 
