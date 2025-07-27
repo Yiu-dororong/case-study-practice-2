@@ -2,7 +2,9 @@
 This project serves as the first hand-on practice on my Business Intelligence (BI) skills. It is based on a given fictional topic and with some guidances from the course I am taking. BigQuery, SQL and Tableau will be used in the ETL process and data visualisation. Since some of the information from the course, I will try to explain the process as the course did give exemplars for references in the end. It aims to show all the procedure and thought process here.
 
 ### Introduction
-**Situation**: Imagine I am a business analyst in Cyclistic, a fictional bike-share company in New York City. The growth team wants to understand how their customers are using their bikes; their top priority is identifying customer demand at different station locations.
+**Situation** 
+
+Imagine I am a business analyst in Cyclistic, a fictional bike-share company in New York City. The growth team wants to understand how their customers are using their bikes; their top priority is identifying customer demand at different station locations.
 
 To keep it simple, I will make a brief summary here. For details, please refer to the three exemplar documents in the repository.
 
