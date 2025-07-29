@@ -142,7 +142,10 @@ Finally, the ```WHERE``` section filters out the New York area by using the weat
 
 ## Dashboard
 
+Low fieldity mock up
 
+Reflection
+Table vs Visualisation
 
 
 
