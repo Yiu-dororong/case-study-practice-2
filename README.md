@@ -141,8 +141,37 @@ Finally, the ```WHERE``` section filters out the New York area by using the weat
 
 
 ## Dashboard
+To build a dashboard, it is great to prepare a draft at first. Since this is an imagainary project, I cannot discuss with stakeholders to confirm their needs.
 
-Low fieldity mock up
+Here I made a low fieldity mockup for my reference to design the dashboard.
+
+<img width="1862" height="2883" alt="low-f plan" src="https://github.com/user-attachments/assets/3a8d708e-5a27-499e-b825-ffde012e1d68" />
+
+Let me explain a little bit.
+
+There are 2 dashboards. Through the buttons at the left bottom corner, one can switch between pages. The first one on the upper top is about the general information, in the point of view of geographical locations. It is because one of the most important information about every trip is location, I believe this would be a good starting point get an overview on the current usage. It also some filters to narrow down the scope of details, such as start locations and end locations. As the heatmap already shows the frenquecy on each region, I planned to make a table underneath to connect them as a *trip*, hoping to give some insight.
+
+On the lower half of the mockup, that would be another page for analyzing trends. What it means is about the important metric against other factors, such as weather. It is hoped to discover some correlation among them and develop high-level insight.
+
+Now, let's move on to the hand-on process.
+
+
+The first part is all about maps.
+<img width="1678" height="1017" alt="image" src="https://github.com/user-attachments/assets/70916b40-4056-4168-9169-4bf97d7e67d4" />
+
+The key of making maps visualisation is that each data entry should include a geographical data point. The only data that has geographical data type is the zip code, so I used it to represent locations, and grpah against trip count and showed by divergences of colours.
+
+Second one would be the summary table.
+<img width="1027" height="587" alt="image" src="https://github.com/user-attachments/assets/4e41897a-641c-4a78-96fc-b0e082bc4ac9" />
+
+Since the format of using two kinds of data (start locations and end locations) does not look so well, so I combined it by concatenation. A simple formula would do the job by creating a calculated field.
+```
+[Neighborhood Start] + " to " + [Neighborhood End]
+```
+I called it Journey and then compare it to other metrics. Note that sometimes we may need to use other calculation method, not only sum, but also mean this time. Other calculation such as percentage change will be used too.
+
+Next,
+
 
 Reflection
 Table vs Visualisation
