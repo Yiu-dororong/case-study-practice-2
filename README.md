@@ -170,11 +170,34 @@ Since the format of using two kinds of data (start locations and end locations) 
 ```
 I called it Journey and then compare it to other metrics. Note that sometimes we may need to use other calculation method, not only sum, but also mean this time. Other calculation such as percentage change will be used too.
 
-Next,
+Next, I set up some graphs about trip count against other factors on the second dashboard.
 
+First, as one of the business tasks focuses on user type (subscriber or not), I made a combined broken line graph to shows different user type on how much they contribute to the total trip. At the same time, I used month as a basis to count the number of trips, so that the seasonal trend can be observed. 
 
-Reflection
-Table vs Visualisation
+Then, I compared trip count to different weather condition, including rainfall, wind speed and temperature to see if there is any correlations. As there is a donut chart on showing rainy/rainless days' trip count, I have to create a new column to make the chart.
+```
+IF [Day Total Precipitation]=0 THEN "No Rain" 
+ELSE "Rainy" 
+END
+```
+
+Lastly, I also made two tiny KPI charts, which are trip count and trip duration. Although I think it may be better to put it on the first dashboard, but the layout is pretty saturated and I put them on here. A quick reference for the setup of KPI charts can be found in [this video](https://youtu.be/ZQi1Uh8bNVQ?si=azI_oazTBQQp78u2).
+
+After some adjustments and fine-tunes (some functions are not available in the online version of Tableau), the final layout looks like as [follow](https://public.tableau.com/app/profile/yiu.yiu1567/viz/casestudy2_17537014005160/1_1)
+<img width="1689" height="1282" alt="image" src="https://github.com/user-attachments/assets/77fe6411-3f25-4369-a5e1-85fdc5f9012c" />
+<img width="1695" height="1282" alt="image" src="https://github.com/user-attachments/assets/8d19d020-43e5-400c-a80a-9be1b42e8bc0" />
+
+## Analysis
+
+I will leave some key insights here. For a more structured presentation, please check the slides [here].
+
+## Reflection
+
+Overall, I think this exploration is pretty interesting, but it is challenging as well. It is because we have to give a plan on the early stage, the understanding on the whole data is low. In other words, the more I process the data, the better picture I can get from it. It may alters the plan at the beginning, and hence it is hard to give an accurate plan at the beginning.
+
+Another difficulty would be making trade-offs, for instance, making data visualisation is to represent data into a easier form, but this may lead to lose in details. One of my concerns when making the summary table would how much information should be included, or shall I just use a graph instead? My decision was to avoid mention data twice, if they are already presented, I prefer not to include it again as this would be redundant. In reality, I have to discuss with my stakeholders.
+
+Lastly, planning the layout is also an uneasy job, as the size of graph may differ from my expectation. Also, it is only to really know how the relationship is between two metrics when we started to process it, so this would be hard to plan using which graph and comparing which metrics. Designing dashboard to have an appealing appearance is also a kind of art. I shall study more to improve user interface, such as appearance and functions to create better graphs.
 
 
 
