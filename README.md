@@ -1,5 +1,10 @@
 # Case Study Practice 2 
-This project serves as the first hand-on practice on my Business Intelligence (BI) skills. It is based on a given fictional topic and with some guidances from the course I am taking. BigQuery, SQL and Tableau will be used in the ETL process and data visualisation. Since some of the information from the course, I will try to explain the process as the course did give exemplars for references in the end. It aims to show all my understanding and thought process here.
+This project serves as the first hand-on practice on my Business Intelligence (BI) skills. It is based on a given fictional topic and with some guidances from the course I am taking. BigQuery, SQL and Tableau will be used in the ETL process and data visualisation. Since some of the information from the course, I will try to explain the process as the course did give exemplars for references in the end. It aims to show my understanding and thought process here.
+
+Final delievables:
+[Dashboard](https://public.tableau.com/app/profile/yiu.yiu1567/viz/casestudy2_17537014005160/1_1)
+[Summary]
+[Slides]
 
 ## Introduction
 **Situation** 
@@ -172,7 +177,7 @@ I called it Journey and then compare it to other metrics. Note that sometimes we
 
 Next, I set up some graphs about trip count against other factors on the second dashboard.
 
-First, as one of the business tasks focuses on user type (subscriber or not), I made a combined broken line graph to shows different user type on how much they contribute to the total trip. At the same time, I used month as a basis to count the number of trips, so that the seasonal trend can be observed. 
+First, as one of the business tasks focuses on user type (subscriber or not), I made a combined broken line graph to shows different user type on how much they contribute to the total trip. At the same time, I used month as a basis to count the number of trips, so that the seasonal trend can be observed. One of the stakerequirements is to focus on 2015 summer, so I placed filters to select specific time period on both dashboards. 
 
 Then, I compared trip count to different weather condition, including rainfall, wind speed and temperature to see if there is any correlations. As there is a donut chart on showing rainy/rainless days' trip count, I have to create a new column to make the chart.
 ```
@@ -189,7 +194,22 @@ After some adjustments and fine-tunes (some functions are not available in the o
 
 ## Analysis
 
-I will leave some key insights here. For a more structured presentation, please check the slides [here].
+I will leave some key insights here. For an executive summary, please check the [here].
+
+The most popular start and end location is in the centre of New York, and the most popular are internal travel.
+
+The most outside region is having the longest trip duration, this may due to it is farthest from the centre.
+
+A seasonal trend can be found, summer time (around May to Augest) having most trip counts, while January and Feburary having the least.
+
+Although sunny days constitute most of the time, trips come from rainy days still make up of ~32% of the total.
+
+People can accept small amount of rainfall.
+
+The lower the wind speed and the higher the temperature, the more the trips we have. This may correlates to the seasmality (summer having the most trips).
+
+Our business is growing compared to the last year, while subscribers are the predominant users.
+
 
 ## Reflection
 
