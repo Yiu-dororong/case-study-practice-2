@@ -168,7 +168,8 @@ The first part is all about maps.
 The key of making maps visualisation is that each data entry should include a geographical data point. The only data that has geographical data type is the zip code, so I used it to represent locations, and grpah against trip count and showed by divergences of colours.
 
 Second one would be the summary table.
-<img width="1027" height="587" alt="image" src="https://github.com/user-attachments/assets/4e41897a-641c-4a78-96fc-b0e082bc4ac9" />
+<img width="910" height="498" alt="image" src="https://github.com/user-attachments/assets/2656e8c5-2ae3-4f44-a8ab-e4f07d0d7751" />
+
 
 Since the format of using two kinds of data (start locations and end locations) does not look so well, so I combined it by concatenation. A simple formula would do the job by creating a calculated field.
 ```
@@ -190,8 +191,9 @@ END
 Lastly, I also made two tiny KPI charts, which are trip count and trip duration. Although I think it may be better to put it on the first dashboard, but the layout is pretty saturated and I put them on here. A quick reference for the setup of KPI charts can be found in [this video](https://youtu.be/ZQi1Uh8bNVQ?si=azI_oazTBQQp78u2).
 
 After some adjustments and fine-tunes (some functions are not available in the online version of Tableau), the final layout looks like as [follow](https://public.tableau.com/app/profile/yiu.yiu1567/viz/casestudy2_17537014005160/1_1)
-<img width="1689" height="1282" alt="image" src="https://github.com/user-attachments/assets/77fe6411-3f25-4369-a5e1-85fdc5f9012c" />
-<img width="1695" height="1282" alt="image" src="https://github.com/user-attachments/assets/8d19d020-43e5-400c-a80a-9be1b42e8bc0" />
+<img width="1431" height="1071" alt="image" src="https://github.com/user-attachments/assets/4e5a9db7-dfc2-44cf-8768-e555c0b4eaf2" />
+<img width="1433" height="1076" alt="image" src="https://github.com/user-attachments/assets/6004a6d2-d975-4021-ad9b-d975e1cdbdd1" />
+
 
 ## Analysis
 
