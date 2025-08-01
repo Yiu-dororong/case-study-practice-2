@@ -3,8 +3,9 @@ This project serves as the first hand-on practice on my Business Intelligence (B
 
 Final delievables:
 [Dashboard](https://public.tableau.com/app/profile/yiu.yiu1567/viz/casestudy2_17537014005160/1_1)
-[Summary]
-[Slides]
+and
+[Summary](https://docs.google.com/document/d/1iPftXczVk0gVL6y-tooaWIsy7TujVKOfIFd11Bx9kvY/edit?usp=sharing)
+
 
 ## Introduction
 **Situation** 
@@ -194,7 +195,7 @@ After some adjustments and fine-tunes (some functions are not available in the o
 
 ## Analysis
 
-I will leave some key insights here. For an executive summary, please check the [here].
+I will leave some key insights here. For an executive summary, please check the [here](https://docs.google.com/document/d/1iPftXczVk0gVL6y-tooaWIsy7TujVKOfIFd11Bx9kvY/edit?usp=sharing).
 
 The most popular start and end location is in the centre of New York, and the most popular are internal travel.
 
@@ -206,7 +207,7 @@ Although sunny days constitute most of the time, trips come from rainy days stil
 
 People can accept small amount of rainfall.
 
-The lower the wind speed and the higher the temperature, the more the trips we have. This may correlates to the seasmality (summer having the most trips).
+The lower the wind speed and the higher the temperature, the more the trips we have. This may correlates to the seasonality (summer having the most trips).
 
 Our business is growing compared to the last year, while subscribers are the predominant users.
 
