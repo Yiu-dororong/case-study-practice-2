@@ -190,6 +190,15 @@ END
 
 Lastly, I also made two tiny KPI charts, which are trip count and trip duration. Although I think it may be better to put it on the first dashboard, but the layout is pretty saturated and I put them on here. A quick reference for the setup of KPI charts can be found in [this video](https://youtu.be/ZQi1Uh8bNVQ?si=azI_oazTBQQp78u2).
 
+*If you are interested in how to automate KPI calculation PY, here is an example from the video*
+```
+## Determine whether the month of the record is a year before the latest record
+DATETRUNC('month', [Date])
+>=
+DATEADD('month', -11, {MAX(DATETRUNC('month', [Date]))})
+```
+
+
 After some adjustments and fine-tunes (some functions are not available in the online version of Tableau), the final layout looks like as [follow](https://public.tableau.com/app/profile/yiu.yiu1567/viz/casestudy2_17537014005160/1_1)
 <img width="1431" height="1071" alt="image" src="https://github.com/user-attachments/assets/4e5a9db7-dfc2-44cf-8768-e555c0b4eaf2" />
 <img width="1433" height="1076" alt="image" src="https://github.com/user-attachments/assets/6004a6d2-d975-4021-ad9b-d975e1cdbdd1" />
